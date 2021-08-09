@@ -1,0 +1,157 @@
+ <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Estudiantes :  31 </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>  
+                </div> <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"> ESTUDIANTES APROBADOS :  20 </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>  
+                </div> <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">NOTA ORDENADA ASCENDENTEMENTE </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>  
+                </div> <table class="w3-table w3-striped w3-bordered w3-border">
+            <thead class="w3-green">
+          <tr>
+            <th  scope="col"> NOMBRE</th>
+            <th  scope="col"> NOTA</th>
+            </tr><tr> <th  scope="col"> Charles Aguirre </th>
+            <th  scope="col">0</th> </tr><tr> <th  scope="col"> Benito Juárez </th>
+            <th  scope="col">21</th> </tr><tr> <th  scope="col"> Esmeralda de Leon </th>
+            <th  scope="col">21</th> </tr><tr> <th  scope="col"> Guadalupe Montero </th>
+            <th  scope="col">25</th> </tr><tr> <th  scope="col"> Albert Judas </th>
+            <th  scope="col">33</th> </tr><tr> <th  scope="col"> Joaquin Palma </th>
+            <th  scope="col">33</th> </tr><tr> <th  scope="col"> Charles Darwin </th>
+            <th  scope="col">37</th> </tr><tr> <th  scope="col"> Albert Einstein </th>
+            <th  scope="col">40</th> </tr><tr> <th  scope="col"> Angel Mazariegos </th>
+            <th  scope="col">45</th> </tr><tr> <th  scope="col"> Stephen Hawking </th>
+            <th  scope="col">60</th> </tr><tr> <th  scope="col"> Stephen Orellana </th>
+            <th  scope="col">60</th> </tr><tr> <th  scope="col"> Albert Einstein </th>
+            <th  scope="col">61</th> </tr><tr> <th  scope="col"> Otto Perez </th>
+            <th  scope="col">62</th> </tr><tr> <th  scope="col"> Charles Darwin </th>
+            <th  scope="col">65</th> </tr><tr> <th  scope="col"> Martin Garrix </th>
+            <th  scope="col">70</th> </tr><tr> <th  scope="col"> Joaquin Palma </th>
+            <th  scope="col">76</th> </tr><tr> <th  scope="col"> Nicolas Copernico </th>
+            <th  scope="col">78</th> </tr><tr> <th  scope="col"> Mateo Copernico </th>
+            <th  scope="col">78</th> </tr><tr> <th  scope="col"> Albert Einstein </th>
+            <th  scope="col">79</th> </tr><tr> <th  scope="col"> Alvaro Socop </th>
+            <th  scope="col">80</th> </tr><tr> <th  scope="col"> Pedro Fernandez </th>
+            <th  scope="col">84</th> </tr><tr> <th  scope="col"> Otto Perez </th>
+            <th  scope="col">84</th> </tr><tr> <th  scope="col"> Stephen Hawking </th>
+            <th  scope="col">84</th> </tr><tr> <th  scope="col"> Justin Piedrasanta </th>
+            <th  scope="col">84</th> </tr><tr> <th  scope="col"> Jimena Salazar </th>
+            <th  scope="col">85</th> </tr><tr> <th  scope="col"> Otto Gonzales </th>
+            <th  scope="col">94</th> </tr><tr> <th  scope="col"> Andrea Orellana </th>
+            <th  scope="col">94</th> </tr><tr> <th  scope="col"> Dario Montepeque </th>
+            <th  scope="col">95</th> </tr><tr> <th  scope="col"> Stephen Hercules </th>
+            <th  scope="col">95</th> </tr><tr> <th  scope="col"> John Dalton </th>
+            <th  scope="col">98</th> </tr><tr> <th  scope="col"> Charles Guzman </th>
+            <th  scope="col">100</th> </tr> </thead> </table> <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">NOTA ORDENADA DESCENDENTEMENTE </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>  
+                </div> <table class="w3-table w3-striped w3-bordered w3-border">
+            <thead class="w3-green">
+          <tr>
+            <th  scope="col"> NOMBRE</th>
+            <th  scope="col"> NOTA</th>
+            </tr><tr> <th  scope="col"> Charles Guzman </th>
+            <th  scope="col">100</th> </tr><tr> <th  scope="col"> John Dalton </th>
+            <th  scope="col">98</th> </tr><tr> <th  scope="col"> Dario Montepeque </th>
+            <th  scope="col">95</th> </tr><tr> <th  scope="col"> Stephen Hercules </th>
+            <th  scope="col">95</th> </tr><tr> <th  scope="col"> Otto Gonzales </th>
+            <th  scope="col">94</th> </tr><tr> <th  scope="col"> Andrea Orellana </th>
+            <th  scope="col">94</th> </tr><tr> <th  scope="col"> Jimena Salazar </th>
+            <th  scope="col">85</th> </tr><tr> <th  scope="col"> Pedro Fernandez </th>
+            <th  scope="col">84</th> </tr><tr> <th  scope="col"> Otto Perez </th>
+            <th  scope="col">84</th> </tr><tr> <th  scope="col"> Stephen Hawking </th>
+            <th  scope="col">84</th> </tr><tr> <th  scope="col"> Justin Piedrasanta </th>
+            <th  scope="col">84</th> </tr><tr> <th  scope="col"> Alvaro Socop </th>
+            <th  scope="col">80</th> </tr><tr> <th  scope="col"> Albert Einstein </th>
+            <th  scope="col">79</th> </tr><tr> <th  scope="col"> Nicolas Copernico </th>
+            <th  scope="col">78</th> </tr><tr> <th  scope="col"> Mateo Copernico </th>
+            <th  scope="col">78</th> </tr><tr> <th  scope="col"> Joaquin Palma </th>
+            <th  scope="col">76</th> </tr><tr> <th  scope="col"> Martin Garrix </th>
+            <th  scope="col">70</th> </tr><tr> <th  scope="col"> Charles Darwin </th>
+            <th  scope="col">65</th> </tr><tr> <th  scope="col"> Otto Perez </th>
+            <th  scope="col">62</th> </tr><tr> <th  scope="col"> Albert Einstein </th>
+            <th  scope="col">61</th> </tr><tr> <th  scope="col"> Stephen Hawking </th>
+            <th  scope="col">60</th> </tr><tr> <th  scope="col"> Stephen Orellana </th>
+            <th  scope="col">60</th> </tr><tr> <th  scope="col"> Angel Mazariegos </th>
+            <th  scope="col">45</th> </tr><tr> <th  scope="col"> Albert Einstein </th>
+            <th  scope="col">40</th> </tr><tr> <th  scope="col"> Charles Darwin </th>
+            <th  scope="col">37</th> </tr><tr> <th  scope="col"> Albert Judas </th>
+            <th  scope="col">33</th> </tr><tr> <th  scope="col"> Joaquin Palma </th>
+            <th  scope="col">33</th> </tr><tr> <th  scope="col"> Guadalupe Montero </th>
+            <th  scope="col">25</th> </tr><tr> <th  scope="col"> Benito Juárez </th>
+            <th  scope="col">21</th> </tr><tr> <th  scope="col"> Esmeralda de Leon </th>
+            <th  scope="col">21</th> </tr><tr> <th  scope="col"> Charles Aguirre </th>
+            <th  scope="col">0</th> </tr> </thead> </table> <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">PROMEDIO :  65.19 </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>  
+                </div> <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"> NOTA MINIMA  </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>  
+                </div><table class="w3-table w3-striped w3-bordered w3-border">
+            <thead class="w3-green">
+            <tr> 
+    <th  scope="col">Charles Aguirre</th> <th  scope="col">0</tr>
+            </thead>
+           </table>
+     <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"> NOTA MAXIMA </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>  
+                </div><table class="w3-table w3-striped w3-bordered w3-border">
+            <thead class="w3-green">
+            <tr> 
+    <th  scope="col">Charles Guzman</th> <th  scope="col">100</tr>
+            </thead>
+           </table>
+     <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"> ESTUDIANTES REPROBADOS :  11 </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>  
+                </div>
