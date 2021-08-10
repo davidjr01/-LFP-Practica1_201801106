@@ -55,7 +55,7 @@ class PP1:
         <!-- Navigation-->
         <nav class="navbar  bg-secondary text-white text-center fixed-top" id="mainNav">
            
-            <h2 class="masthead-heading text-uppercase mb-0">
+            <h2 class="masthead-heading text-uppercase mb-0">curso :   
         '''
     primeraCT='''</h2>
         </nav>

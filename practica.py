@@ -42,6 +42,42 @@ def Abrir():
 notaMaxima=["",0]
 notaMinima=["",0]
 
+def Imprimir():
+
+    global reporte
+    reporte=reporte + PP1.titulotabla1  + "LISTA ESTUDIANTES" +PP1.titultabla2
+    tabla=''' <table class="w3-table w3-striped w3-bordered w3-border">
+            <thead class="w3-green">
+        '''
+    reporte=reporte+tabla
+    tati='''  <tr>
+            <th  scope="col"> NOMBRE</th>
+            <th  scope="col"> NOTA</th>
+            </tr>'''
+    ##tati es la variable para titutlo (NOMBRE , NOTA)
+    reporte=reporte+tati
+
+    for i in alumnos:
+        sc1='<tr> <th  scope="col"> '
+
+        sc2=''' </th>
+            <th  class="blue">'''
+
+        sc22=''' </th>
+            <th  class="red">'''
+        sc3="</th> </tr>"
+        if int(i.getNota())>60:
+            reporte=reporte+sc1+str(i.getNombre())+sc2+str(i.getNota())+sc3
+        else:
+            reporte=reporte+sc1+str(i.getNombre())+sc22+str(i.getNota())+sc3
+
+
+    reporte=reporte +" </thead> </table> <br> </section>"
+
+
+
+
+
 def Ordenar_Ac(boton):
     global notaMaxima
     no=[]
@@ -87,9 +123,15 @@ def Ordenar_Ac(boton):
             print("Nombre :  " + no[i]+ "   Nota: " + str(nu[i]))
             sc1='<tr> <th  scope="col"> '
             sc2=''' </th>
-            <th  scope="col">'''
+            <th  class="blue">'''
+
+            sc22=''' </th>
+                <th  class="red">'''
             sc3="</th> </tr>"
-            reporte=reporte+sc1+str(no[i])+sc2+str(nu[i])+sc3
+            if int(nu[i])>60:
+                reporte=reporte+sc1+str(no[i])+sc2+str(nu[i])+sc3
+            else:
+                reporte=reporte+sc1+str(no[i])+sc22+str(nu[i])+sc3
             
         reporte=reporte +" </thead> </table> <br> </section>"
 
@@ -131,9 +173,18 @@ def Ordenar_DC():
         print("Nombre :  " + no[i]+ "   Nota: " + str(nu[i]))
         sc1='<tr> <th  scope="col"> '
         sc2=''' </th>
-            <th  scope="col">'''
+            <th  class="blue">'''
+
+        sc22=''' </th>
+            <th  class="red">'''
+
         sc3="</th> </tr>"
-        reporte=reporte+sc1+str(no[i])+sc2+str(nu[i])+sc3
+
+        if int(nu[i])>60:
+            reporte=reporte+sc1+str(no[i])+sc2+str(nu[i])+sc3
+        else:
+            reporte=reporte+sc1+str(no[i])+sc22+str(nu[i])+sc3
+
     reporte=reporte +" </thead> </table> <br> </section>"
     
 
@@ -166,7 +217,13 @@ def NMaxima():
            <br>
            </section>
     '''
-    reporte=reporte + tablam1+ '<th  scope="col">'+notaMaxima[0]+'</th> <th  scope="col">'+str(notaMaxima[1])+tablam2
+    if int(notaMaxima[1])>60:
+        reporte=reporte + tablam1+ ' <th  scope="col">  '+notaMaxima[0]+'</th>  <th  class="blue">'+str(notaMaxima[1])+tablam2
+    else:
+        reporte=reporte + tablam1+ '<th  scope="col">'+notaMaxima[0]+'</th>  <th  class="red">'+str(notaMaxima[1])+tablam2
+
+       
+    
 
 def NMinima():
     global reporte
@@ -185,7 +242,10 @@ def NMinima():
            <br>
            </section>
     '''
-    reporte=reporte + tablam1+ '<th  scope="col">'+notaMinima[0]+'</th> <th  scope="col">'+str(notaMinima[1])+tablam2
+    if int(notaMinima[1])>60:
+        reporte=reporte + tablam1+ '<th  scope="col">'+notaMinima[0]+'</th> <th class="blue" >'+str(notaMinima[1])+tablam2
+    else:
+        reporte=reporte + tablam1+ '<th  scope="col">'+notaMinima[0]+'</th> <th  class="red" >'+str(notaMinima[1])+tablam2
 
 def Aprobados():
     global reporte
@@ -222,7 +282,7 @@ while op!=4:
         print("Archivo cargado con exito \n")
     elif op==2:
         print("Nombre De curso : " + Ncurso + "Estudiantes :  " + str(Nalumnos)+ "\n")
-    
+        Imprimir()
         for i in restricciones:
             if i=="ASC":
                 Ordenar_Ac(1)
@@ -239,9 +299,8 @@ while op!=4:
             elif i=="REP":
                 Reprobados()
     elif op==3:
-
         pagina=open("inicio.html","w")
-        pagina.write(PP1.primera+Ncurso+ ' </h2> <h2 class="masthead-heading text-uppercase mb-0">  ESTUDIANTES:  ' +  str(Nalumnos) +PP1.primeraCT+reporte+PP1.segunda)
+        pagina.write(PP1.primera+ "   "+Ncurso+ ' </h2> <h2 class="masthead-heading text-uppercase mb-0">  ESTUDIANTES:  ' +  str(Nalumnos) +PP1.primeraCT+reporte+PP1.segunda)
         pagina.close()
         try:
             os.startfile("inicio.html")
