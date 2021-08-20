@@ -1,5 +1,7 @@
 from Alumnos import Alumno
 from PP import PP1
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 import os 
 
 
@@ -15,7 +17,8 @@ def Abrir():
     global alumnos
     global Ncurso
     global Nalumnos
-    archivo=open("1.lfp",'r')
+    direccion=askopenfilename()
+    archivo=open(direccion,'r')
     cadena=archivo.read()
     archivo.close()
     cadena=cadena.strip()
@@ -43,7 +46,9 @@ notaMaxima=["",0]
 notaMinima=["",0]
 
 def Imprimir():
-
+    print("\tLISTA ESTUDIANTES")
+    for i in alumnos:
+        print("Nombre:\t" + i.getNombre() + "\tNota:\t"+str(i.getNota()))
     global reporte
     reporte=reporte + PP1.titulotabla1  + "LISTA ESTUDIANTES" +PP1.titultabla2
     tabla=''' <table class="w3-table w3-striped w3-bordered w3-border">
@@ -272,6 +277,7 @@ def Reprobados():
 op=0
 
 while op!=4:
+    Tk().withdraw()
     print("1)..........................Cargar Archivo")
     print("2)..........................Mostrar Reporte en Consola")
     print("3)..........................Exportar Reporte")
